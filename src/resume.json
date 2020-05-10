@@ -1,7 +1,42 @@
 {
     "personal": {
         "name": "Marius-Patrick Giurca",
-        "dateOfBirth": "18-02-1993",
-        "" 
-    }
+        "position": "Fullstack Web Developer",
+        "dateOfBirth": "18.02.1993",
+        "phoneNumber": "0644721389",
+        "email": "marius.patrick72@gmail.com",
+        "summary": "Self-motivated and ",
+        "address": {
+            "country": "The Netherlands",
+            "city": "Amsterdam",
+            "street": "Anna Blamansigel 63",
+            "postalCode": "1102ST"
+        }
+    },
+
+    "experience": [
+        {
+            "company": "Caledonian Hotel",
+            "position": "Waiter",
+            "location": {
+                "country": "UK",
+                "city": "Ullapool"
+            },
+            "startDate": "05.2016",
+            "endDate": "08.2016",
+            "summary": "Working with people from all over the world helped with solidifying my english and communication skills in general."
+        },
+
+        {
+            "company": "Zoku",
+            "position": "Kitchen Steward/Chef helper",
+            "location": {
+                "country": "UK",
+                "city": "Ullapool"
+            },
+            "startDate": "05.2016",
+            "endDate": "08.2016",
+            "summary": ""
+        }
+    ]
 }
