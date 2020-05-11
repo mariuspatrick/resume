@@ -1,21 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Myself from "./components/Myself";
 
-function App() {
-  return (
-    <div className="App">
-      <p>Hello Resume</p>
-              <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Made with React
-        </a>
-    </div>
-  );
+class App extends Component {
+  render() {
+    const information = this.props.resumeJson;
+
+    return (
+      <div className="App">
+        <Myself resumeObject={information} />
+      </div>
+    );
+  }
 }
 
 export default App;
