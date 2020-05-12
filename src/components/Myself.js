@@ -5,10 +5,14 @@ import "../App.css";
 class Myself extends Component {
   render() {
     const { personal } = this.props.resumeObject;
+    const { address } = personal;
 
     return (
       <div className="myself">
         <h1 className="myself__header">{personal.name}</h1>
+        <p className="address">
+          {address.city}, {address.street}
+        </p>
         <h3 className="myself__subheader">{personal.summary}</h3>
 
         <div className="myself__react-container">

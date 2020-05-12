@@ -37,6 +37,13 @@
   }
 }
 
+.myself__react-container {
+  display: block;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
 .myself {
   font-family: "Raleway";
   font-weight: 600;
@@ -55,4 +62,9 @@
 
 .myself__subheader {
   font-weight: 300;
+}
+
+.address {
+  font-weight: 100;
+  font-style: italic;
 }
