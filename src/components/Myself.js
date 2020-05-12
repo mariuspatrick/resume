@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
-import "./components.css";
+import "../App.css";
 
 class Myself extends Component {
   render() {
@@ -13,6 +13,7 @@ class Myself extends Component {
 
         <div className="myself__react-container">
           <a
+            style={{ textDecoration: "none" }}
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
