@@ -38,7 +38,8 @@
 }
 
 .myself {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway";
+  font-weight: 600;
   position: relative;
   display: flex;
   justify-content: center;
@@ -50,4 +51,8 @@
   max-width: 360px;
   background: #fafafa;
   text-align: center;
+}
+
+.myself__subheader {
+  font-weight: 300;
 }
