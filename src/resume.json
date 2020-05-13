@@ -38,5 +38,13 @@
       "endDate": "08.2016",
       "summary": ""
     }
-  ]
+  ],
+
+  "codaisseur": {
+    "company": "Codaisseur",
+    "position": "Fullstack web developer",
+    "starDate": "24-11-2019",
+    "endDate": "24-01-2020",
+    "location": "Amsterdam"
+  }
 }
