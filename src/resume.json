@@ -3,7 +3,11 @@
     "name": "Marius-Patrick Giurca",
     "position": "Fullstack Web Developer",
     "dateOfBirth": "18.02.1993",
-    "phoneNumber": "0644721389",
+    "contact": {
+      "phoneNumber": "0644721389",
+      "linkedIn": "https://www.linkedin.com/in/marius-patrick/",
+      "github": "https://github.com/mariuspatrick"
+    },
     "email": "marius.patrick72@gmail.com",
     "summary": "Self-motivated and pasioante web developer, looking for a challenging enviorenment where I can grow professionally and personally. ",
     "address": {
@@ -13,7 +17,6 @@
       "postalCode": "1102ST"
     }
   },
-
   "experience": [
     {
       "company": "Caledonian Hotel",
@@ -39,7 +42,6 @@
       "summary": ""
     }
   ],
-
   "codaisseur": {
     "company": "Codaisseur",
     "position": "Fullstack web developer",
